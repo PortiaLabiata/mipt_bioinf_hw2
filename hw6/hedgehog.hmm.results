@@ -1,0 +1,2032 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm
+# target sequence database:        hedgehog.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       GPS  [M=45]
+Accession:   PF01825.27
+Description: GPCR proteolysis site, GPS, motif
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.7e-17   65.1   6.6    6.9e-17   63.2   6.6    2.2  1  XP_060058211.1  adhesion G protein-coupled receptor L4 isofor
+    1.7e-17   65.1   6.6    6.9e-17   63.2   6.6    2.2  1  XP_016046811.1  adhesion G protein-coupled receptor L4 isofor
+    2.6e-16   61.3   3.4    2.6e-16   61.3   3.4    2.4  1  XP_060057939.1  cadherin EGF LAG seven-pass G-type receptor 2
+    2.6e-16   61.3   3.4    2.6e-16   61.3   3.4    2.4  1  XP_060057938.1  cadherin EGF LAG seven-pass G-type receptor 2
+    2.6e-16   61.3   3.4    2.6e-16   61.3   3.4    2.4  1  XP_060057937.1  cadherin EGF LAG seven-pass G-type receptor 2
+    2.6e-16   61.3   3.4    2.6e-16   61.3   3.4    2.4  1  XP_007529387.1  cadherin EGF LAG seven-pass G-type receptor 2
+    2.6e-16   61.3   3.4    2.6e-16   61.3   3.4    2.4  1  XP_060057936.1  cadherin EGF LAG seven-pass G-type receptor 2
+    4.4e-16   60.6   8.9    1.1e-15   59.2   8.9    1.8  1  XP_060043996.1  adhesion G protein-coupled receptor L3 isofor
+    4.4e-16   60.6   8.9    1.1e-15   59.3   8.9    1.8  1  XP_060043999.1  adhesion G protein-coupled receptor L3 isofor
+    4.4e-16   60.6   8.9    1.2e-15   59.2   8.9    1.8  1  XP_060043994.1  adhesion G protein-coupled receptor L3 isofor
+    4.4e-16   60.6   8.9    1.2e-15   59.2   8.9    1.8  1  XP_060043995.1  adhesion G protein-coupled receptor L3 isofor
+    4.4e-16   60.6   8.9    1.1e-15   59.2   8.9    1.8  1  XP_060043997.1  adhesion G protein-coupled receptor L3 isofor
+    4.5e-16   60.6   8.9    1.1e-15   59.3   8.9    1.8  1  XP_060043998.1  adhesion G protein-coupled receptor L3 isofor
+    4.5e-16   60.5   8.9    1.1e-15   59.3   8.9    1.8  1  XP_060044000.1  adhesion G protein-coupled receptor L3 isofor
+    4.5e-16   60.5   8.9    1.1e-15   59.3   8.9    1.8  1  XP_007527424.3  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043983.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043982.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043985.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043980.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043992.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043991.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043993.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043990.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043988.1  adhesion G protein-coupled receptor L3 isofor
+    5.4e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043989.1  adhesion G protein-coupled receptor L3 isofor
+    5.5e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043986.1  adhesion G protein-coupled receptor L3 isofor
+    5.5e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043984.1  adhesion G protein-coupled receptor L3 isofor
+    5.5e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043987.1  adhesion G protein-coupled receptor L3 isofor
+    5.5e-16   60.3   8.9    1.4e-15   59.0   8.9    1.8  1  XP_060043981.1  adhesion G protein-coupled receptor L3 isofor
+    1.6e-15   58.8   6.7    5.3e-15   57.1   6.7    2.0  1  XP_007534591.1  LOW QUALITY PROTEIN: adhesion G-protein coupl
+    4.6e-15   57.3   2.9    1.2e-14   55.9   2.9    1.8  1  XP_060038935.1  adhesion G-protein coupled receptor G2 isofor
+    4.6e-15   57.3   2.9    1.2e-14   55.9   2.9    1.8  1  XP_060038933.1  adhesion G-protein coupled receptor G2 isofor
+    4.6e-15   57.3   2.9    1.2e-14   55.9   2.9    1.8  1  XP_060038934.1  adhesion G-protein coupled receptor G2 isofor
+    4.7e-15   57.3   2.9    1.2e-14   55.9   2.9    1.8  1  XP_060038932.1  adhesion G-protein coupled receptor G2 isofor
+    4.7e-15   57.3   2.9    1.3e-14   55.9   2.9    1.8  1  XP_060038931.1  adhesion G-protein coupled receptor G2 isofor
+    4.7e-15   57.3   2.9    1.3e-14   55.9   2.9    1.8  1  XP_060038929.1  adhesion G-protein coupled receptor G2 isofor
+    4.7e-15   57.3   2.9    1.3e-14   55.9   2.9    1.8  1  XP_060038930.1  adhesion G-protein coupled receptor G2 isofor
+    4.8e-15   57.3   2.9    1.3e-14   55.9   2.9    1.8  1  XP_060038925.1  adhesion G-protein coupled receptor G2 isofor
+    4.8e-15   57.3   2.9    1.3e-14   55.9   2.9    1.8  1  XP_060038927.1  adhesion G-protein coupled receptor G2 isofor
+    4.8e-15   57.3   2.9    1.3e-14   55.9   2.9    1.8  1  XP_060038928.1  adhesion G-protein coupled receptor G2 isofor
+      5e-15   57.2   5.1    2.5e-14   54.9   5.1    2.4  1  XP_060044703.1  adhesion G protein-coupled receptor F5 isofor
+    5.1e-15   57.2   5.1    2.6e-14   54.9   5.1    2.4  1  XP_060044701.1  adhesion G protein-coupled receptor F5 isofor
+    5.2e-15   57.1   5.1    2.6e-14   54.9   5.1    2.4  1  XP_060044702.1  adhesion G protein-coupled receptor F5 isofor
+    5.3e-15   57.1   5.1    2.7e-14   54.9   5.1    2.4  1  XP_060044700.1  adhesion G protein-coupled receptor F5 isofor
+    5.3e-15   57.1   5.1    2.7e-14   54.9   5.1    2.4  1  XP_060044696.1  adhesion G protein-coupled receptor F5 isofor
+    5.3e-15   57.1   5.1    2.7e-14   54.9   5.1    2.4  1  XP_060044697.1  adhesion G protein-coupled receptor F5 isofor
+    5.3e-15   57.1   5.1    2.7e-14   54.9   5.1    2.4  1  XP_060044698.1  adhesion G protein-coupled receptor F5 isofor
+    5.3e-15   57.1   5.1    2.7e-14   54.9   5.1    2.4  1  XP_060044699.1  adhesion G protein-coupled receptor F5 isofor
+    5.5e-15   57.1   2.9    1.2e-14   56.0   2.9    1.6  1  XP_060038936.1  adhesion G-protein coupled receptor G2 isofor
+    5.6e-15   57.1   6.6    4.3e-14   54.2   6.6    2.7  1  XP_060040576.1  adhesion G protein-coupled receptor E2-like, 
+    6.3e-15   56.9   3.7    1.2e-14   56.0   1.8    2.3  1  XP_016042349.1  adhesion G-protein coupled receptor G1 isofor
+    6.3e-15   56.9   3.7    1.2e-14   56.0   1.8    2.3  1  XP_060041467.1  adhesion G-protein coupled receptor G1 isofor
+    6.3e-15   56.9   3.7    1.2e-14   56.0   1.8    2.3  1  XP_060041468.1  adhesion G-protein coupled receptor G1 isofor
+    6.3e-15   56.9   3.7    1.2e-14   56.0   1.8    2.3  1  XP_060041469.1  adhesion G-protein coupled receptor G1 isofor
+    6.3e-15   56.9   3.7    1.2e-14   56.0   1.8    2.3  1  XP_060041470.1  adhesion G-protein coupled receptor G1 isofor
+    6.9e-15   56.8   6.9    1.5e-14   55.7   6.9    1.6  1  XP_060037844.1  adhesion G protein-coupled receptor L1 isofor
+    6.9e-15   56.7   6.9    1.5e-14   55.7   6.9    1.6  1  XP_060037843.1  adhesion G protein-coupled receptor L1 isofor
+    8.2e-15   56.5   5.7    8.2e-15   56.5   5.7    2.8  1  XP_060040022.1  adhesion G protein-coupled receptor E2-like i
+    8.5e-15   56.5   5.7    8.5e-15   56.5   5.7    2.3  1  XP_060040021.1  adhesion G protein-coupled receptor E2-like i
+    8.6e-15   56.5   5.7    8.6e-15   56.5   5.7    2.8  1  XP_060040020.1  adhesion G protein-coupled receptor E2-like i
+    9.1e-15   56.4   5.9    2.8e-14   54.8   5.9    1.9  1  XP_060058225.1  adhesion G protein-coupled receptor L2 isofor
+    1.2e-14   55.9   1.8    1.2e-14   55.9   1.8    2.7  1  XP_060041466.1  adhesion G-protein coupled receptor G1 isofor
+    1.8e-14   55.4   2.8    1.8e-14   55.4   2.8    2.7  1  XP_060038290.1  adhesion G protein-coupled receptor E5 isofor
+      2e-14   55.3   2.8      2e-14   55.3   2.8    3.1  1  XP_060038289.1  adhesion G protein-coupled receptor E5 isofor
+      2e-14   55.3   5.9      2e-14   55.3   5.9    2.7  1  XP_060038225.1  adhesion G protein-coupled receptor E1 [Erina
+    2.1e-14   55.2   5.9    2.1e-14   55.2   5.9    2.0  1  XP_060058224.1  adhesion G protein-coupled receptor L2 isofor
+    2.1e-14   55.2   2.8    2.1e-14   55.2   2.8    3.2  1  XP_060038288.1  adhesion G protein-coupled receptor E5 isofor
+    2.1e-14   55.2   5.9    2.1e-14   55.2   5.9    2.0  1  XP_060058223.1  adhesion G protein-coupled receptor L2 isofor
+    2.1e-14   55.2   5.9    2.1e-14   55.2   5.9    2.0  1  XP_060058222.1  adhesion G protein-coupled receptor L2 isofor
+    2.2e-14   55.2   5.9    2.2e-14   55.2   5.9    2.0  1  XP_060058221.1  adhesion G protein-coupled receptor L2 isofor
+    2.2e-14   55.1   5.9    2.2e-14   55.1   5.9    2.0  1  XP_060058220.1  adhesion G protein-coupled receptor L2 isofor
+    2.2e-14   55.1   5.9    2.2e-14   55.1   5.9    2.0  1  XP_060058218.1  adhesion G protein-coupled receptor L2 isofor
+    2.3e-14   55.1   5.3      5e-14   54.0   5.3    1.6  1  XP_060041465.1  adhesion G protein-coupled receptor G3 isofor
+    2.6e-14   54.9   5.9    2.6e-14   54.9   5.9    1.9  1  XP_060058217.1  adhesion G protein-coupled receptor L2 isofor
+    2.6e-14   54.9   5.9    2.6e-14   54.9   5.9    1.9  1  XP_060058216.1  adhesion G protein-coupled receptor L2 isofor
+    2.7e-14   54.9   5.3    5.6e-14   53.8   5.3    1.6  1  XP_007520189.2  adhesion G protein-coupled receptor G3 isofor
+    2.7e-14   54.9   5.9    2.7e-14   54.9   5.9    1.9  1  XP_060058215.1  adhesion G protein-coupled receptor L2 isofor
+    2.7e-14   54.8   5.9    2.7e-14   54.8   5.9    1.9  1  XP_060058212.1  adhesion G protein-coupled receptor L2 isofor
+    2.7e-14   54.8   5.9    2.7e-14   54.8   5.9    1.9  1  XP_060058213.1  adhesion G protein-coupled receptor L2 isofor
+    2.7e-14   54.8   5.9    2.7e-14   54.8   5.9    1.9  1  XP_060058214.1  adhesion G protein-coupled receptor L2 isofor
+    3.6e-14   54.5   6.5    6.2e-14   53.7   5.1    2.1  1  XP_060044711.1  adhesion G-protein coupled receptor F1 isofor
+    3.7e-14   54.4   3.7    3.7e-14   54.4   3.7    3.9  1  XP_060045973.1  adhesion G protein-coupled receptor B3 [Erina
+    6.8e-14   53.6   5.1    6.8e-14   53.6   5.1    2.8  1  XP_060044709.1  adhesion G-protein coupled receptor F1 isofor
+    7.2e-14   53.5   5.1    7.2e-14   53.5   5.1    2.8  1  XP_016041383.1  adhesion G-protein coupled receptor F1 isofor
+    7.3e-14   53.5   5.1    7.3e-14   53.5   5.1    2.8  1  XP_016041382.1  adhesion G-protein coupled receptor F1 isofor
+    1.6e-13   52.4   1.8    5.2e-13   50.8   1.8    2.0  1  XP_060041471.1  adhesion G-protein coupled receptor G5 isofor
+    1.6e-13   52.4   1.8    5.2e-13   50.8   1.8    2.0  1  XP_007520191.1  adhesion G-protein coupled receptor G5 isofor
+      4e-13   51.1   7.0    1.6e-12   49.2   7.0    2.2  1  XP_060061737.1  adhesion G protein-coupled receptor B2 isofor
+      4e-13   51.1   7.0    1.6e-12   49.2   7.0    2.2  1  XP_060061736.1  adhesion G protein-coupled receptor B2 isofor
+    4.1e-13   51.1   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061730.1  adhesion G protein-coupled receptor B2 isofor
+    4.1e-13   51.1   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061729.1  adhesion G protein-coupled receptor B2 isofor
+    4.2e-13   51.1   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061731.1  adhesion G protein-coupled receptor B2 isofor
+    4.2e-13   51.1   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061734.1  adhesion G protein-coupled receptor B2 isofor
+    4.2e-13   51.0   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061728.1  adhesion G protein-coupled receptor B2 isofor
+    4.3e-13   51.0   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061727.1  adhesion G protein-coupled receptor B2 isofor
+    4.3e-13   51.0   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061724.1  adhesion G protein-coupled receptor B2 isofor
+    4.3e-13   51.0   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061725.1  adhesion G protein-coupled receptor B2 isofor
+    4.3e-13   51.0   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061726.1  adhesion G protein-coupled receptor B2 isofor
+    4.3e-13   51.0   7.0    1.7e-12   49.1   7.0    2.2  1  XP_060061733.1  adhesion G protein-coupled receptor B2 isofor
+    4.6e-13   50.9   7.0    1.6e-12   49.2   7.0    2.1  1  XP_060061735.1  adhesion G protein-coupled receptor B2 isofor
+    4.8e-13   50.9   7.0    1.7e-12   49.1   7.0    2.1  1  XP_060061732.1  adhesion G protein-coupled receptor B2 isofor
+    8.3e-13   50.1   8.3    8.3e-13   50.1   8.3    2.6  1  XP_060040582.1  adhesion G protein-coupled receptor E2 isofor
+    8.4e-13   50.1   5.0    2.4e-12   48.6   5.0    1.9  1  XP_060048700.1  LOW QUALITY PROTEIN: adhesion G-protein coupl
+    8.9e-13   50.0   8.3    8.9e-13   50.0   8.3    3.1  1  XP_060040580.1  adhesion G protein-coupled receptor E2 isofor
+    8.9e-13   50.0   8.3    8.9e-13   50.0   8.3    3.0  1  XP_060040579.1  adhesion G protein-coupled receptor E2 isofor
+    9.1e-13   50.0   8.3    9.1e-13   50.0   8.3    3.0  1  XP_060040578.1  adhesion G protein-coupled receptor E2 isofor
+    9.1e-13   50.0   8.3    9.1e-13   50.0   8.3    3.0  1  XP_060040577.1  adhesion G protein-coupled receptor E2 isofor
+    9.5e-13   49.9   8.3    9.5e-13   49.9   8.3    3.2  1  XP_060040581.1  adhesion G protein-coupled receptor E2 isofor
+    1.3e-12   49.5   3.2    1.3e-12   49.5   3.2    2.5  1  XP_060028194.1  adhesion G-protein coupled receptor G7 [Erina
+    2.1e-12   48.8   3.0    2.1e-12   48.8   3.0    2.3  1  XP_060044398.1  adhesion G-protein coupled receptor F3 [Erina
+      1e-11   46.6   4.5      4e-11   44.7   4.5    2.2  1  XP_007522530.1  cadherin EGF LAG seven-pass G-type receptor 1
+      1e-11   46.6   4.5      4e-11   44.7   4.5    2.2  1  XP_060044769.1  cadherin EGF LAG seven-pass G-type receptor 1
+    1.4e-11   46.2   6.3    4.4e-11   44.6   6.3    2.0  1  XP_060040575.1  LOW QUALITY PROTEIN: adhesion G protein-coupl
+    2.4e-11   45.4   5.8    2.4e-11   45.4   5.8    3.0  1  XP_060040019.1  adhesion G protein-coupled receptor E3 isofor
+    2.6e-11   45.3   5.8    2.6e-11   45.3   5.8    3.0  1  XP_060040018.1  adhesion G protein-coupled receptor E3 isofor
+    2.6e-11   45.3   5.8    2.6e-11   45.3   5.8    3.0  1  XP_060040017.1  adhesion G protein-coupled receptor E3 isofor
+    2.7e-11   45.3   5.8    2.7e-11   45.3   5.8    3.0  1  XP_060040016.1  adhesion G protein-coupled receptor E3 isofor
+    2.4e-09   39.0   6.9    8.5e-09   37.3   6.9    2.0  1  XP_060028025.1  LOW QUALITY PROTEIN: polycystin-1-like protei
+    3.6e-09   38.5   0.3    1.2e-08   36.8   0.3    2.0  1  XP_060038659.1  adhesion G protein-coupled receptor A2 isofor
+    3.8e-09   38.4   0.3    1.4e-08   36.6   0.3    2.1  1  XP_060038656.1  adhesion G protein-coupled receptor A2 isofor
+    3.8e-09   38.4   0.3    1.4e-08   36.6   0.3    2.1  1  XP_060038651.1  adhesion G protein-coupled receptor A2 isofor
+    3.9e-09   38.3   0.3    1.4e-08   36.5   0.3    2.1  1  XP_007516755.1  adhesion G protein-coupled receptor A2 isofor
+    1.1e-08   36.9   0.1    5.4e-08   34.7   0.1    2.4  1  XP_060051893.1  adhesion G protein-coupled receptor B1 isofor
+    1.2e-08   36.8   0.4    3.7e-08   35.2   0.4    2.0  1  XP_060060680.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.2e-08   36.8   0.4    3.7e-08   35.2   0.4    2.0  1  XP_060060676.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.2e-08   36.8   0.4    3.7e-08   35.2   0.4    2.0  1  XP_060060675.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.2e-08   36.8   0.4    3.8e-08   35.2   0.4    2.0  1  XP_060060674.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.2e-08   36.8   0.4    3.8e-08   35.2   0.4    2.0  1  XP_060060672.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.2e-08   36.8   0.4    3.8e-08   35.2   0.4    2.0  1  XP_060060673.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.2e-08   36.8   0.4    3.8e-08   35.2   0.4    2.0  1  XP_060060671.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.4e-08   36.6   0.1    6.3e-08   34.5   0.1    2.3  1  XP_060051892.1  adhesion G protein-coupled receptor B1 isofor
+    1.4e-08   36.5   0.1    6.8e-08   34.4   0.1    2.3  1  XP_060051889.1  adhesion G protein-coupled receptor B1 isofor
+    1.4e-08   36.5   0.1    6.8e-08   34.4   0.1    2.3  1  XP_060051887.1  adhesion G protein-coupled receptor B1 isofor
+    1.5e-08   36.5   0.1      7e-08   34.3   0.1    2.3  1  XP_060051883.1  adhesion G protein-coupled receptor B1 isofor
+    1.5e-08   36.5   0.1    6.4e-08   34.5   0.1    2.2  1  XP_060051891.1  adhesion G protein-coupled receptor B1 isofor
+    1.5e-08   36.5   0.4    4.5e-08   34.9   0.4    1.9  1  XP_060060679.1  cadherin EGF LAG seven-pass G-type receptor 3
+    1.5e-08   36.4   0.1    6.8e-08   34.4   0.1    2.3  1  XP_060051888.1  adhesion G protein-coupled receptor B1 isofor
+    1.5e-08   36.4   0.1    6.9e-08   34.4   0.1    2.3  1  XP_060051886.1  adhesion G protein-coupled receptor B1 isofor
+    1.6e-08   36.4   0.1    6.5e-08   34.4   0.1    2.2  1  XP_060051890.1  adhesion G protein-coupled receptor B1 isofor
+    1.6e-08   36.4   0.1      7e-08   34.3   0.1    2.3  1  XP_060051884.1  adhesion G protein-coupled receptor B1 isofor
+    1.6e-08   36.4   0.1    6.9e-08   34.3   0.1    2.2  1  XP_060051885.1  adhesion G protein-coupled receptor B1 isofor
+    1.6e-08   36.4   0.1      7e-08   34.3   0.1    2.3  1  XP_060051882.1  adhesion G protein-coupled receptor B1 isofor
+      2e-08   36.1   1.9      5e-08   34.8   1.9    1.7  1  XP_007517910.2  adhesion G protein-coupled receptor F4 [Erina
+      2e-08   36.1   1.9      5e-08   34.8   1.9    1.7  1  XP_060044712.1  adhesion G protein-coupled receptor F4 [Erina
+      2e-08   36.1   1.9      5e-08   34.8   1.9    1.7  1  XP_060044713.1  adhesion G protein-coupled receptor F4 [Erina
+    1.7e-07   33.1   0.9    3.8e-07   32.0   0.9    1.7  1  XP_060040120.1  adhesion G-protein coupled receptor F2 isofor
+    1.8e-07   33.0   0.9    3.8e-07   32.0   0.9    1.6  1  XP_060040121.1  adhesion G-protein coupled receptor F2 isofor
+    9.7e-07   30.7   0.1    9.7e-07   30.7   0.1    3.5  2  XP_060044257.1  adhesion G protein-coupled receptor A3 isofor
+    9.9e-07   30.6   0.1    9.9e-07   30.6   0.1    3.5  1  XP_060044255.1  adhesion G protein-coupled receptor A3 isofor
+      1e-06   30.6   0.1      1e-06   30.6   0.1    3.5  1  XP_007523941.2  adhesion G protein-coupled receptor A3 isofor
+  ------ inclusion threshold ------
+       0.11   14.5   0.3       0.51   12.4   0.0    2.3  1  XP_060028589.1  polycystin-1 isoform X2 [Erinaceus europaeus]
+       0.16   14.0   0.1        1.2   11.2   0.0    2.5  1  XP_060026981.1  polycystin-1-like protein 1 [Erinaceus europa
+       0.18   13.8   0.5       0.69   11.9   0.0    2.3  1  XP_060028588.1  polycystin-1 isoform X1 [Erinaceus europaeus]
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_060058211.1  adhesion G protein-coupled receptor L4 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.2   6.6   2.1e-19   6.9e-17       2      45 .]     419     462 ..     418     462 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 63.2 bits;  conditional E-value: 2.1e-19
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qC+fW+ s ++  g Ws+eGC+lt s netht+C+CnHlt+FA+L
+  XP_060058211.1 419 QCAFWNySLDTMNGIWSSEGCELTYS-NETHTSCHCNHLTHFAIL 462
+                     8******999999********99888.*****************8 PP
+
+>> XP_016046811.1  adhesion G protein-coupled receptor L4 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.2   6.6     2e-19   6.9e-17       2      45 .]     419     462 ..     418     462 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 63.2 bits;  conditional E-value: 2e-19
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qC+fW+ s ++  g Ws+eGC+lt s netht+C+CnHlt+FA+L
+  XP_016046811.1 419 QCAFWNySLDTMNGIWSSEGCELTYS-NETHTSCHCNHLTHFAIL 462
+                     8******999999********99888.*****************8 PP
+
+>> XP_060057939.1  cadherin EGF LAG seven-pass G-type receptor 2 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.4   7.6e-19   2.6e-16       1      45 []    2313    2358 ..    2313    2358 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 7.6e-19
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+     sgtggWs +GC+++ + ne+h++C+CnH+tsFAvL
+  XP_060057939.1 2313 PICVFWNhsILVSGTGGWSARGCEVVFR-NESHVSCQCNHMTSFAVL 2358
+                      89******988899*********77666.*****************8 PP
+
+>> XP_060057938.1  cadherin EGF LAG seven-pass G-type receptor 2 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.4   7.6e-19   2.6e-16       1      45 []    2313    2358 ..    2313    2358 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 7.6e-19
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+     sgtggWs +GC+++ + ne+h++C+CnH+tsFAvL
+  XP_060057938.1 2313 PICVFWNhsILVSGTGGWSARGCEVVFR-NESHVSCQCNHMTSFAVL 2358
+                      89******988899*********77666.*****************8 PP
+
+>> XP_060057937.1  cadherin EGF LAG seven-pass G-type receptor 2 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.4   7.7e-19   2.6e-16       1      45 []    2313    2358 ..    2313    2358 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 7.7e-19
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+     sgtggWs +GC+++ + ne+h++C+CnH+tsFAvL
+  XP_060057937.1 2313 PICVFWNhsILVSGTGGWSARGCEVVFR-NESHVSCQCNHMTSFAVL 2358
+                      89******988899*********77666.*****************8 PP
+
+>> XP_007529387.1  cadherin EGF LAG seven-pass G-type receptor 2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.4   7.7e-19   2.6e-16       1      45 []    2313    2358 ..    2313    2358 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 7.7e-19
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+     sgtggWs +GC+++ + ne+h++C+CnH+tsFAvL
+  XP_007529387.1 2313 PICVFWNhsILVSGTGGWSARGCEVVFR-NESHVSCQCNHMTSFAVL 2358
+                      89******988899*********77666.*****************8 PP
+
+>> XP_060057936.1  cadherin EGF LAG seven-pass G-type receptor 2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.4   7.8e-19   2.6e-16       1      45 []    2313    2358 ..    2313    2358 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 7.8e-19
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+     sgtggWs +GC+++ + ne+h++C+CnH+tsFAvL
+  XP_060057936.1 2313 PICVFWNhsILVSGTGGWSARGCEVVFR-NESHVSCQCNHMTSFAVL 2358
+                      89******988899*********77666.*****************8 PP
+
+>> XP_060043996.1  adhesion G protein-coupled receptor L3 isoform X17 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   8.9   3.4e-18   1.1e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043996.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043999.1  adhesion G protein-coupled receptor L3 isoform X21 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   8.9   3.4e-18   1.1e-15       1      45 []     879     923 ..     879     923 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043999.1 879 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 923
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043994.1  adhesion G protein-coupled receptor L3 isoform X15 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   8.9   3.4e-18   1.2e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043994.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043995.1  adhesion G protein-coupled receptor L3 isoform X16 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   8.9   3.4e-18   1.2e-15       1      45 []     879     923 ..     879     923 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043995.1 879 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 923
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043997.1  adhesion G protein-coupled receptor L3 isoform X18 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   8.9   3.4e-18   1.1e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043997.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043998.1  adhesion G protein-coupled receptor L3 isoform X20 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   8.9   3.4e-18   1.1e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043998.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060044000.1  adhesion G protein-coupled receptor L3 isoform X22 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   8.9   3.4e-18   1.1e-15       1      45 []     639     683 ..     639     683 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060044000.1 639 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 683
+                     78******9999**********77666.*****************8 PP
+
+>> XP_007527424.3  adhesion G protein-coupled receptor L3 isoform X19 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   8.9   3.4e-18   1.1e-15       1      45 []     644     688 ..     644     688 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 3.4e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_007527424.3 644 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 688
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043983.1  adhesion G protein-coupled receptor L3 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     883     927 ..     883     927 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043983.1 883 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 927
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043982.1  adhesion G protein-coupled receptor L3 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.2e-18   1.4e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.2e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043982.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043985.1  adhesion G protein-coupled receptor L3 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     879     923 ..     879     923 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043985.1 879 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 923
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043980.1  adhesion G protein-coupled receptor L3 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.2e-18   1.4e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.2e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043980.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043992.1  adhesion G protein-coupled receptor L3 isoform X13 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     870     914 ..     870     914 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043992.1 870 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 914
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043991.1  adhesion G protein-coupled receptor L3 isoform X12 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     871     915 ..     871     915 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043991.1 871 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 915
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043993.1  adhesion G protein-coupled receptor L3 isoform X14 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     866     910 ..     866     910 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043993.1 866 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 910
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043990.1  adhesion G protein-coupled receptor L3 isoform X11 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     866     910 ..     866     910 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043990.1 866 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 910
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043988.1  adhesion G protein-coupled receptor L3 isoform X9 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043988.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043989.1  adhesion G protein-coupled receptor L3 isoform X10 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     879     923 ..     879     923 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043989.1 879 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 923
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043986.1  adhesion G protein-coupled receptor L3 isoform X7 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     883     927 ..     883     927 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043986.1 883 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 927
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043984.1  adhesion G protein-coupled receptor L3 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043984.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043987.1  adhesion G protein-coupled receptor L3 isoform X8 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.1e-18   1.4e-15       1      45 []     879     923 ..     879     923 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.1e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043987.1 879 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 923
+                     78******9999**********77666.*****************8 PP
+
+>> XP_060043981.1  adhesion G protein-coupled receptor L3 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   8.9   4.2e-18   1.4e-15       1      45 []     884     928 ..     884     928 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 4.2e-18
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p C fW+ s+ + tg Wst+GC+l ++ n+tht+CsCnHlt+FAvL
+  XP_060043981.1 884 PNCSFWSySKRTMTGYWSTQGCRLLTT-NKTHTTCSCNHLTNFAVL 928
+                     78******9999**********77666.*****************8 PP
+
+>> XP_007534591.1  LOW QUALITY PROTEIN: adhesion G-protein coupled receptor G4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   6.7   1.6e-17   5.3e-15       2      45 .]    2559    2602 ..    2558    2602 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.6e-17
+             GPS    2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +C+fWd +sn+g+ggW+++GC+ ++++n ++t+C+C+Hlt+F+vL
+  XP_007534591.1 2559 HCAFWDfESNNGQGGWNSSGCK-VKETNVNYTICHCDHLTHFGVL 2602
+                      7******9999**********5.5666*****************8 PP
+
+>> XP_060038935.1  adhesion G-protein coupled receptor G2 isoform X8 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.7e-17   1.2e-14       2      45 .]     550     593 ..     549     593 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038935.1 550 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 593
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038933.1  adhesion G-protein coupled receptor G2 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.7e-17   1.2e-14       2      45 .]     558     601 ..     557     601 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038933.1 558 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 601
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038934.1  adhesion G-protein coupled receptor G2 isoform X7 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.7e-17   1.2e-14       2      45 .]     553     596 ..     552     596 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038934.1 553 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 596
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038932.1  adhesion G-protein coupled receptor G2 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.7e-17   1.2e-14       2      45 .]     561     604 ..     560     604 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038932.1 561 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 604
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038931.1  adhesion G-protein coupled receptor G2 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.7e-17   1.3e-14       2      45 .]     564     607 ..     563     607 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038931.1 564 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 607
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038929.1  adhesion G-protein coupled receptor G2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.8e-17   1.3e-14       2      45 .]     572     615 ..     571     615 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.8e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038929.1 572 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 615
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038930.1  adhesion G-protein coupled receptor G2 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.7e-17   1.3e-14       2      45 .]     567     610 ..     566     610 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038930.1 567 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 610
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038925.1  adhesion G-protein coupled receptor G2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.8e-17   1.3e-14       2      45 .]     575     618 ..     574     618 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.8e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038925.1 575 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 618
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038927.1  adhesion G-protein coupled receptor G2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.8e-17   1.3e-14       2      45 .]     575     618 ..     574     618 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.8e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038927.1 575 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 618
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060038928.1  adhesion G-protein coupled receptor G2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   2.9   3.8e-17   1.3e-14       2      45 .]     575     618 ..     574     618 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.8e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038928.1 575 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 618
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060044703.1  adhesion G protein-coupled receptor F5 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.6e-17   2.5e-14       1      45 []     934     978 ..     934     978 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.6e-17
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044703.1 934 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 978
+                     79******88889*********5.5555*****************8 PP
+
+>> XP_060044701.1  adhesion G protein-coupled receptor F5 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.7e-17   2.6e-14       1      45 []     959    1003 ..     959    1003 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.7e-17
+             GPS    1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044701.1  959 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 1003
+                      79******88889*********5.5555*****************8 PP
+
+>> XP_060044702.1  adhesion G protein-coupled receptor F5 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.7e-17   2.6e-14       1      45 []     951     995 ..     951     995 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.7e-17
+             GPS   1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044702.1 951 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 995
+                     79******88889*********5.5555*****************8 PP
+
+>> XP_060044700.1  adhesion G protein-coupled receptor F5 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.9e-17   2.7e-14       1      45 []     991    1035 ..     991    1035 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.9e-17
+             GPS    1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044700.1  991 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 1035
+                      79******88889*********5.5555*****************8 PP
+
+>> XP_060044696.1  adhesion G protein-coupled receptor F5 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.9e-17   2.7e-14       1      45 []     991    1035 ..     991    1035 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.9e-17
+             GPS    1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044696.1  991 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 1035
+                      79******88889*********5.5555*****************8 PP
+
+>> XP_060044697.1  adhesion G protein-coupled receptor F5 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.9e-17   2.7e-14       1      45 []     991    1035 ..     991    1035 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.9e-17
+             GPS    1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044697.1  991 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 1035
+                      79******88889*********5.5555*****************8 PP
+
+>> XP_060044698.1  adhesion G protein-coupled receptor F5 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.9e-17   2.7e-14       1      45 []     991    1035 ..     991    1035 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.9e-17
+             GPS    1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044698.1  991 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 1035
+                      79******88889*********5.5555*****************8 PP
+
+>> XP_060044699.1  adhesion G protein-coupled receptor F5 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.1   7.9e-17   2.7e-14       1      45 []     991    1035 ..     991    1035 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.9e-17
+             GPS    1 pqCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+ +  + tggW+++GC  +++ ++++++CsC+HltsF++L
+  XP_060044699.1  991 PVCVFWNfHLANHTGGWDQSGCY-VKEFSDESVSCSCDHLTSFSIL 1035
+                      79******88889*********5.5555*****************8 PP
+
+>> XP_060038936.1  adhesion G-protein coupled receptor G2 isoform X9 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   2.9   3.6e-17   1.2e-14       2      45 .]     575     618 ..     574     618 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3.6e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd  +n+g+ggWs++GCs+ ++   ++t+C C+HltsF+vL
+  XP_060038936.1 575 RCVFWDlGRNGGRGGWSSNGCSVQDR-RLNETICTCSHLTSFGVL 618
+                     7******9999**********76555.*****************8 PP
+
+>> XP_060040576.1  adhesion G protein-coupled receptor E2-like, partial [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   6.6   1.3e-16   4.3e-14       2      45 .]     363     405 ..     362     405 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 1.3e-16
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ +++g+g+W t+GC+++++  ++ t+C+C+Hl+sFAvL
+  XP_060040576.1 363 LCVFWEREQNGSGHWGTTGCRTVNR-AANVTTCQCTHLSSFAVL 405
+                     6*****555599********77777.*****************8 PP
+
+>> XP_016042349.1  adhesion G-protein coupled receptor G1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.8   3.5e-17   1.2e-14       2      45 .]     338     381 ..     337     381 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3.5e-17
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qCvfW    + +g g+Ws+ GC +t s  +t+t C CnHlt+FAvL
+  XP_016042349.1 338 QCVFWVedPTLNGPGSWSDAGC-ETIS-RDTQTACYCNHLTYFAVL 381
+                     9******9777799********.8999.*****************8 PP
+
+>> XP_060041467.1  adhesion G-protein coupled receptor G1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.8   3.5e-17   1.2e-14       2      45 .]     338     381 ..     337     381 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3.5e-17
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qCvfW    + +g g+Ws+ GC +t s  +t+t C CnHlt+FAvL
+  XP_060041467.1 338 QCVFWVedPTLNGPGSWSDAGC-ETIS-RDTQTACYCNHLTYFAVL 381
+                     9******9777799********.8999.*****************8 PP
+
+>> XP_060041468.1  adhesion G-protein coupled receptor G1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.8   3.5e-17   1.2e-14       2      45 .]     338     381 ..     337     381 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3.5e-17
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qCvfW    + +g g+Ws+ GC +t s  +t+t C CnHlt+FAvL
+  XP_060041468.1 338 QCVFWVedPTLNGPGSWSDAGC-ETIS-RDTQTACYCNHLTYFAVL 381
+                     9******9777799********.8999.*****************8 PP
+
+>> XP_060041469.1  adhesion G-protein coupled receptor G1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.8   3.5e-17   1.2e-14       2      45 .]     338     381 ..     337     381 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3.5e-17
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qCvfW    + +g g+Ws+ GC +t s  +t+t C CnHlt+FAvL
+  XP_060041469.1 338 QCVFWVedPTLNGPGSWSDAGC-ETIS-RDTQTACYCNHLTYFAVL 381
+                     9******9777799********.8999.*****************8 PP
+
+>> XP_060041470.1  adhesion G-protein coupled receptor G1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.8   3.5e-17   1.2e-14       2      45 .]     338     381 ..     337     381 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3.5e-17
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qCvfW    + +g g+Ws+ GC +t s  +t+t C CnHlt+FAvL
+  XP_060041470.1 338 QCVFWVedPTLNGPGSWSDAGC-ETIS-RDTQTACYCNHLTYFAVL 381
+                     9******9777799********.8999.*****************8 PP
+
+>> XP_060037844.1  adhesion G protein-coupled receptor L1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   6.9   4.5e-17   1.5e-14       2      45 .]     791     834 ..     790     834 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 4.5e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ s  g Wst+GC+l es n+tht+C C+Hlt+FAvL
+  XP_060037844.1 791 NCTFWNySERSMLGYWSTQGCRLLES-NRTHTTCACSHLTHFAVL 834
+                     7******9999**********77666.*****************8 PP
+
+>> XP_060037843.1  adhesion G protein-coupled receptor L1 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   6.9   4.5e-17   1.5e-14       2      45 .]     791     834 ..     790     834 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 4.5e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ s  g Wst+GC+l es n+tht+C C+Hlt+FAvL
+  XP_060037843.1 791 NCTFWNySERSMLGYWSTQGCRLLES-NRTHTTCACSHLTHFAVL 834
+                     7******9999**********77666.*****************8 PP
+
+>> XP_060040022.1  adhesion G protein-coupled receptor E2-like isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.5   5.7   2.4e-17   8.2e-15       3      45 .]     359     400 ..     357     400 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 56.5 bits;  conditional E-value: 2.4e-17
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     CvfW+ +++g+g+W+t+GC++++  ++++t+C+C+Hl+sFAvL
+  XP_060040022.1 359 CVFWERGQNGSGHWDTRGCRTVG-ITGSSTTCQCSHLSSFAVL 400
+                     *****888899********6555.5*****************8 PP
+
+>> XP_060040021.1  adhesion G protein-coupled receptor E2-like isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.5   5.7   2.5e-17   8.5e-15       3      45 .]     376     417 ..     374     417 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 56.5 bits;  conditional E-value: 2.5e-17
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     CvfW+ +++g+g+W+t+GC++++  ++++t+C+C+Hl+sFAvL
+  XP_060040021.1 376 CVFWERGQNGSGHWDTRGCRTVG-ITGSSTTCQCSHLSSFAVL 417
+                     *****888899********6555.5*****************8 PP
+
+>> XP_060040020.1  adhesion G protein-coupled receptor E2-like isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.5   5.7   2.6e-17   8.6e-15       3      45 .]     385     426 ..     383     426 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 56.5 bits;  conditional E-value: 2.6e-17
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     CvfW+ +++g+g+W+t+GC++++  ++++t+C+C+Hl+sFAvL
+  XP_060040020.1 385 CVFWERGQNGSGHWDTRGCRTVG-ITGSSTTCQCSHLSSFAVL 426
+                     *****888899********6555.5*****************8 PP
+
+>> XP_060058225.1  adhesion G protein-coupled receptor L2 isoform X11 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   5.9   8.3e-17   2.8e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 8.3e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058225.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060041466.1  adhesion G-protein coupled receptor G1 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   1.8   3.7e-17   1.2e-14       2      45 .]     364     407 ..     363     407 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.7e-17
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     qCvfW    + +g g+Ws+ GC +t s  +t+t C CnHlt+FAvL
+  XP_060041466.1 364 QCVFWVedPTLNGPGSWSDAGC-ETIS-RDTQTACYCNHLTYFAVL 407
+                     9******9777799********.8999.*****************8 PP
+
+>> XP_060038290.1  adhesion G protein-coupled receptor E5 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   2.8   5.5e-17   1.8e-14       3      45 .]     398     439 ..     396     439 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 5.5e-17
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     C+fW+ + +++ggW teGC++ +  ++++t+C+C+Hl+sFAvL
+  XP_060038290.1 398 CAFWKADPDRGGGWATEGCETLGG-SDSSTTCRCHHLSSFAVL 439
+                     *****777799********76666.*****************8 PP
+
+>> XP_060038289.1  adhesion G protein-coupled receptor E5 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.3   2.8   5.9e-17     2e-14       3      45 .]     442     483 ..     440     483 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 55.3 bits;  conditional E-value: 5.9e-17
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     C+fW+ + +++ggW teGC++ +  ++++t+C+C+Hl+sFAvL
+  XP_060038289.1 442 CAFWKADPDRGGGWATEGCETLGG-SDSSTTCRCHHLSSFAVL 483
+                     *****777799********76666.*****************8 PP
+
+>> XP_060038225.1  adhesion G protein-coupled receptor E1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.3   5.9     6e-17     2e-14       2      45 .]     279     320 ..     278     320 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 55.3 bits;  conditional E-value: 6e-17
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +Cv+W  + +++g+Wst+GCs+++s n+++t+C+C Hl+sFAvL
+  XP_060038225.1 279 ICVYW-AEAEQGGSWSTQGCSYVSS-NDSYTTCKCFHLSSFAVL 320
+                     7****.677789********77666.*****************8 PP
+
+>> XP_060058224.1  adhesion G protein-coupled receptor L2 isoform X10 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   5.9   6.3e-17   2.1e-14       2      45 .]     774     817 ..     773     817 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 6.3e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058224.1 774 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 817
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060038288.1  adhesion G protein-coupled receptor E5 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   2.8   6.3e-17   2.1e-14       3      45 .]     491     532 ..     489     532 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 6.3e-17
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     C+fW+ + +++ggW teGC++ +  ++++t+C+C+Hl+sFAvL
+  XP_060038288.1 491 CAFWKADPDRGGGWATEGCETLGG-SDSSTTCRCHHLSSFAVL 532
+                     *****777799********76666.*****************8 PP
+
+>> XP_060058223.1  adhesion G protein-coupled receptor L2 isoform X9 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   5.9   6.3e-17   2.1e-14       2      45 .]     774     817 ..     773     817 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 6.3e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058223.1 774 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 817
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058222.1  adhesion G protein-coupled receptor L2 isoform X8 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   5.9   6.4e-17   2.1e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 6.4e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058222.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058221.1  adhesion G protein-coupled receptor L2 isoform X7 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   5.9   6.4e-17   2.2e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 6.4e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058221.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058220.1  adhesion G protein-coupled receptor L2 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   5.9   6.6e-17   2.2e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 6.6e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058220.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058218.1  adhesion G protein-coupled receptor L2 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   5.9   6.7e-17   2.2e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 6.7e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058218.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060041465.1  adhesion G protein-coupled receptor G3 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   5.3   1.5e-16     5e-14       2      45 .]     163     201 ..     162     201 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.5e-16
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfW   + ++g+Ws++GC lt++    +tvC+C+Hlt+F +L
+  XP_060041465.1 163 SCVFW---DANKGDWSSKGC-LTKQ-GPKQTVCHCDHLTFFTLL 201
+                     7****...6789********.9999.***************987 PP
+
+>> XP_060058217.1  adhesion G protein-coupled receptor L2 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.9   7.8e-17   2.6e-14       2      45 .]     774     817 ..     773     817 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.8e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058217.1 774 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 817
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058216.1  adhesion G protein-coupled receptor L2 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.9   7.9e-17   2.6e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 7.9e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058216.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_007520189.2  adhesion G protein-coupled receptor G3 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.8   5.3   1.7e-16   5.6e-14       2      45 .]     212     250 ..     211     250 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.8 bits;  conditional E-value: 1.7e-16
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfW   + ++g+Ws++GC lt++    +tvC+C+Hlt+F +L
+  XP_007520189.2 212 SCVFW---DANKGDWSSKGC-LTKQ-GPKQTVCHCDHLTFFTLL 250
+                     7****...6789********.9999.***************987 PP
+
+>> XP_060058215.1  adhesion G protein-coupled receptor L2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   5.9     8e-17   2.7e-14       2      45 .]     774     817 ..     773     817 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 8e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058215.1 774 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 817
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058212.1  adhesion G protein-coupled receptor L2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   5.9   8.1e-17   2.7e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 8.1e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058212.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058213.1  adhesion G protein-coupled receptor L2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   5.9   8.1e-17   2.7e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 8.1e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058213.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060058214.1  adhesion G protein-coupled receptor L2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   5.9   8.1e-17   2.7e-14       2      45 .]     787     830 ..     786     830 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 8.1e-17
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      C fW+ s+ + +g Wst+GC+l+++ n+t+t+C C+Hlt+FA+L
+  XP_060058214.1 787 NCSFWNySERTMMGYWSTQGCKLVDT-NKTRTTCACSHLTNFAIL 830
+                     7******9999**********77777.*****************8 PP
+
+>> XP_060044711.1  adhesion G-protein coupled receptor F1 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   5.1   1.8e-16   6.2e-14       1      45 []     415     455 ..     415     455 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 1.8e-16
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+CvfW   + ++ +W++eGC+l+++ +++ ++C+C+HltsF++L
+  XP_060044711.1 415 PRCVFW---DFSHLQWNDEGCHLVNE-TQDAVTCRCTHLTSFSIL 455
+                     89****...67779*******88888.*****************8 PP
+
+>> XP_060045973.1  adhesion G protein-coupled receptor B3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   3.7   1.1e-16   3.7e-14       1      45 []     817     862 ..     817     862 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 1.1e-16
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p Cv Wd  ++n++ g Wst+GC +t+ ++++ht+C C++l++FA+L
+  XP_060045973.1 817 PYCVLWDdsKTNESLGTWSTQGC-KTVLTDASHTKCLCDRLSTFAIL 862
+                     78*********************.56666*****************8 PP
+
+>> XP_060044709.1  adhesion G-protein coupled receptor F1 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   5.1     2e-16   6.8e-14       1      45 []     479     519 ..     479     519 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 2e-16
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+CvfW   + ++ +W++eGC+l+++ +++ ++C+C+HltsF++L
+  XP_060044709.1 479 PRCVFW---DFSHLQWNDEGCHLVNE-TQDAVTCRCTHLTSFSIL 519
+                     89****...67779*******88888.*****************8 PP
+
+>> XP_016041383.1  adhesion G-protein coupled receptor F1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   5.1   2.1e-16   7.2e-14       1      45 []     530     570 ..     530     570 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.5 bits;  conditional E-value: 2.1e-16
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+CvfW   + ++ +W++eGC+l+++ +++ ++C+C+HltsF++L
+  XP_016041383.1 530 PRCVFW---DFSHLQWNDEGCHLVNE-TQDAVTCRCTHLTSFSIL 570
+                     89****...67779*******88888.*****************8 PP
+
+>> XP_016041382.1  adhesion G-protein coupled receptor F1 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   5.1   2.2e-16   7.3e-14       1      45 []     530     570 ..     530     570 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.5 bits;  conditional E-value: 2.2e-16
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+CvfW   + ++ +W++eGC+l+++ +++ ++C+C+HltsF++L
+  XP_016041382.1 530 PRCVFW---DFSHLQWNDEGCHLVNE-TQDAVTCRCTHLTSFSIL 570
+                     89****...67779*******88888.*****************8 PP
+
+>> XP_060041471.1  adhesion G-protein coupled receptor G5 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8   1.8   1.5e-15   5.2e-13       2      45 .]     188     232 ..     187     232 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.5e-15
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfW+   s+  +g Ws+eGC++ +    +++ C+C+Hl++FAvL
+  XP_060041471.1 188 TCVFWKegVSKRHWGVWSPEGCRTEHP-LPSQVLCRCSHLSYFAVL 232
+                     8*******55558*********66555.*****************8 PP
+
+>> XP_007520191.1  adhesion G-protein coupled receptor G5 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8   1.8   1.5e-15   5.2e-13       2      45 .]     188     232 ..     187     232 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.5e-15
+             GPS   2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfW+   s+  +g Ws+eGC++ +    +++ C+C+Hl++FAvL
+  XP_007520191.1 188 TCVFWKegVSKRHWGVWSPEGCRTEHP-LPSQVLCRCSHLSYFAVL 232
+                     8*******55558*********66555.*****************8 PP
+
+>> XP_060061737.1  adhesion G protein-coupled receptor B2 isoform X10 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   7.0   4.8e-15   1.6e-12       1      45 []     804     849 ..     804     849 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 4.8e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061737.1 804 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 849
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061736.1  adhesion G protein-coupled receptor B2 isoform X9 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   7.0   4.8e-15   1.6e-12       1      45 []     804     849 ..     804     849 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 4.8e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061736.1 804 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 849
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061730.1  adhesion G protein-coupled receptor B2 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0     5e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061730.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061729.1  adhesion G protein-coupled receptor B2 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0     5e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061729.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061731.1  adhesion G protein-coupled receptor B2 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   4.9e-15   1.7e-12       1      45 []     804     849 ..     804     849 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 4.9e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061731.1 804 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 849
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061734.1  adhesion G protein-coupled receptor B2 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   4.9e-15   1.7e-12       1      45 []     804     849 ..     804     849 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 4.9e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061734.1 804 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 849
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061728.1  adhesion G protein-coupled receptor B2 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   5.1e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5.1e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061728.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061727.1  adhesion G protein-coupled receptor B2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   5.1e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5.1e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061727.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061724.1  adhesion G protein-coupled receptor B2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   5.1e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5.1e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061724.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061725.1  adhesion G protein-coupled receptor B2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   5.1e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5.1e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061725.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061726.1  adhesion G protein-coupled receptor B2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   5.1e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5.1e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061726.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061733.1  adhesion G protein-coupled receptor B2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   5.1e-15   1.7e-12       1      45 []     859     904 ..     859     904 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 5.1e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061733.1 859 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 904
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061735.1  adhesion G protein-coupled receptor B2 isoform X8 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   7.0   4.8e-15   1.6e-12       1      45 []     804     849 ..     804     849 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 4.8e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061735.1 804 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 849
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060061732.1  adhesion G protein-coupled receptor B2 isoform X7 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   7.0   4.9e-15   1.7e-12       1      45 []     804     849 ..     804     849 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 4.9e-15
+             GPS   1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+C++Wd  s++ ++g+W+ e C +t ++++ ht+C+C+Hl++FAvL
+  XP_060061732.1 804 PHCASWDysSTDANSGDWDMESC-HTLETHAAHTRCQCQHLSTFAVL 849
+                     89*******9*************.56777*****************8 PP
+
+>> XP_060040582.1  adhesion G protein-coupled receptor E2 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   8.3   2.5e-15   8.3e-13       2      45 .]     428     471 ..     427     471 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 2.5e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ ++++ g+W t+GC + + +++ +t+C+C+Hl+sFAvL
+  XP_060040582.1 428 LCVFWERGQDDCGHWATRGCVTLTATDSGSTTCQCSHLSSFAVL 471
+                     6*****88889*********999999*****************8 PP
+
+>> XP_060048700.1  LOW QUALITY PROTEIN: adhesion G-protein coupled receptor D1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.6   5.0   7.2e-15   2.4e-12       3      45 .]     551     591 ..     549     591 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 48.6 bits;  conditional E-value: 7.2e-15
+             GPS   3 CvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     C+f d  s   g+g Ws+eGC lt s n t t+C+C+Hlt+FA+L
+  XP_060048700.1 551 CAFLDfsS---GHGVWSDEGCVLTAS-NLTFTTCHCSHLTNFAIL 591
+                     ****8533...57********66666.*****************8 PP
+
+>> XP_060040580.1  adhesion G protein-coupled receptor E2 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.0   8.3   2.6e-15   8.9e-13       2      45 .]     472     515 ..     471     515 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.0 bits;  conditional E-value: 2.6e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ ++++ g+W t+GC + + +++ +t+C+C+Hl+sFAvL
+  XP_060040580.1 472 LCVFWERGQDDCGHWATRGCVTLTATDSGSTTCQCSHLSSFAVL 515
+                     6*****88889*********999999*****************8 PP
+
+>> XP_060040579.1  adhesion G protein-coupled receptor E2 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.0   8.3   2.7e-15   8.9e-13       2      45 .]     472     515 ..     471     515 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.0 bits;  conditional E-value: 2.7e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ ++++ g+W t+GC + + +++ +t+C+C+Hl+sFAvL
+  XP_060040579.1 472 LCVFWERGQDDCGHWATRGCVTLTATDSGSTTCQCSHLSSFAVL 515
+                     6*****88889*********999999*****************8 PP
+
+>> XP_060040578.1  adhesion G protein-coupled receptor E2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.0   8.3   2.7e-15   9.1e-13       2      45 .]     489     532 ..     488     532 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.0 bits;  conditional E-value: 2.7e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ ++++ g+W t+GC + + +++ +t+C+C+Hl+sFAvL
+  XP_060040578.1 489 LCVFWERGQDDCGHWATRGCVTLTATDSGSTTCQCSHLSSFAVL 532
+                     6*****88889*********999999*****************8 PP
+
+>> XP_060040577.1  adhesion G protein-coupled receptor E2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.0   8.3   2.7e-15   9.1e-13       2      45 .]     488     531 ..     487     531 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.0 bits;  conditional E-value: 2.7e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ ++++ g+W t+GC + + +++ +t+C+C+Hl+sFAvL
+  XP_060040577.1 488 LCVFWERGQDDCGHWATRGCVTLTATDSGSTTCQCSHLSSFAVL 531
+                     6*****88889*********999999*****************8 PP
+
+>> XP_060040581.1  adhesion G protein-coupled receptor E2 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.9   8.3   2.8e-15   9.5e-13       2      45 .]     521     564 ..     520     564 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 49.9 bits;  conditional E-value: 2.8e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      CvfW+ ++++ g+W t+GC + + +++ +t+C+C+Hl+sFAvL
+  XP_060040581.1 521 LCVFWERGQDDCGHWATRGCVTLTATDSGSTTCQCSHLSSFAVL 564
+                     6*****88889*********999999*****************8 PP
+
+>> XP_060028194.1  adhesion G-protein coupled receptor G7 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   3.2   3.8e-15   1.3e-12       2      45 .]     381     421 ..     380     421 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 3.8e-15
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      Cv+W   + + ++W+t+GC ++ s  ++ + C+CnH+tsFAvL
+  XP_060028194.1 381 ACVYW---DFSLNDWDTRGCVKVPSGRAEFLHCRCNHTTSFAVL 421
+                     7****...56778*******999998999999***********8 PP
+
+>> XP_060044398.1  adhesion G-protein coupled receptor F3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   3.0   6.2e-15   2.1e-12       2      45 .]     728     770 ..     727     770 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 6.2e-15
+             GPS   2 qCvfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +CvfWd    +g+ggWs+eGC +++   +  t+C C+Hlt F+vL
+  XP_060044398.1 728 HCVFWDhVLFQGQGGWSEEGC-QVQV-AGPDTRCTCQHLTAFSVL 770
+                     7******888899********.6788.9****************8 PP
+
+>> XP_007522530.1  cadherin EGF LAG seven-pass G-type receptor 1 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   4.5   1.2e-13     4e-11       1      45 []    2443    2488 ..    2443    2488 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 1.2e-13
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+   + +++ggWs +GC+   s n+th+ C+C+H +s AvL
+  XP_007522530.1 2443 PVCVFWNhsINTGDSGGWSAKGCE-LLSRNRTHVACQCSHASSSAVL 2488
+                      79******9555589********5.5666**************9997 PP
+
+>> XP_060044769.1  cadherin EGF LAG seven-pass G-type receptor 1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   4.5   1.2e-13     4e-11       1      45 []    2443    2488 ..    2443    2488 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 1.2e-13
+             GPS    1 pqCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      p+CvfW+   + +++ggWs +GC+   s n+th+ C+C+H +s AvL
+  XP_060044769.1 2443 PVCVFWNhsINTGDSGGWSAKGCE-LLSRNRTHVACQCSHASSSAVL 2488
+                      79******9555589********5.5666**************9997 PP
+
+>> XP_060040575.1  LOW QUALITY PROTEIN: adhesion G protein-coupled receptor E2-like [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.6   6.3   1.3e-13   4.4e-11       3      45 .]     268     309 ..     266     309 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 44.6 bits;  conditional E-value: 1.3e-13
+             GPS   3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     CvfW+ +++g g+W t+G + t ++++++t C C+Hl+sFAvL
+  XP_060040575.1 268 CVFWERDQNGCGNWATKGXR-TLETTSDSTACLCSHLSSFAVL 309
+                     *****6677*********95.6666*****************8 PP
+
+>> XP_060040019.1  adhesion G protein-coupled receptor E3 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.4   5.8   7.2e-14   2.4e-11       2      45 .]     354     395 ..     353     395 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.4 bits;  conditional E-value: 7.2e-14
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      Cv+W  s++ +g+Wst+GC l + +n+th+ C+ +Hl+sFAvL
+  XP_060040019.1 354 LCVYW-ASQQWGGHWSTDGC-LLVGENSTHVFCNATHLSSFAVL 395
+                     6****.677799********.66666*****************8 PP
+
+>> XP_060040018.1  adhesion G protein-coupled receptor E3 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   5.8   7.6e-14   2.6e-11       2      45 .]     331     372 ..     330     372 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 7.6e-14
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      Cv+W  s++ +g+Wst+GC l + +n+th+ C+ +Hl+sFAvL
+  XP_060040018.1 331 LCVYW-ASQQWGGHWSTDGC-LLVGENSTHVFCNATHLSSFAVL 372
+                     6****.677799********.66666*****************8 PP
+
+>> XP_060040017.1  adhesion G protein-coupled receptor E3 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   5.8   7.8e-14   2.6e-11       2      45 .]     349     390 ..     348     390 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 7.8e-14
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      Cv+W  s++ +g+Wst+GC l + +n+th+ C+ +Hl+sFAvL
+  XP_060040017.1 349 LCVYW-ASQQWGGHWSTDGC-LLVGENSTHVFCNATHLSSFAVL 390
+                     6****.677799********.66666*****************8 PP
+
+>> XP_060040016.1  adhesion G protein-coupled receptor E3 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   5.8   7.9e-14   2.7e-11       2      45 .]     354     395 ..     353     395 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 7.9e-14
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                      Cv+W  s++ +g+Wst+GC l + +n+th+ C+ +Hl+sFAvL
+  XP_060040016.1 354 LCVYW-ASQQWGGHWSTDGC-LLVGENSTHVFCNATHLSSFAVL 395
+                     6****.677799********.66666*****************8 PP
+
+>> XP_060028025.1  LOW QUALITY PROTEIN: polycystin-1-like protein 3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   6.9   2.5e-11   8.5e-09       2      43 ..     626     664 ..     625     665 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 2.5e-11
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFA 43 
+                     qC fWds n   + Ws+eGC++  +s+  +t+C C+Hlt+F+
+  XP_060028025.1 626 QCYFWDSYN---STWSSEGCQVGLQSTVLKTQCLCDHLTYFG 664
+                     9****7555...99*******99999***************6 PP
+
+>> XP_060038659.1  adhesion G protein-coupled receptor A2 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.8   0.3   3.4e-11   1.2e-08       1      45 []     472     513 ..     472     513 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 36.8 bits;  conditional E-value: 3.4e-11
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+ ++W  s++g ggWs+eGC +  ss+ +  + +C+Hl + AvL
+  XP_060038659.1 472 PVAAWW--SQEGPGGWSSEGC-QLRSSQPNASSLHCQHLGNVAVL 513
+                     56799*..47789********.56777*****************8 PP
+
+>> XP_060038656.1  adhesion G protein-coupled receptor A2 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.3   4.2e-11   1.4e-08       1      45 []     681     722 ..     681     722 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 4.2e-11
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+ ++W  s++g ggWs+eGC +  ss+ +  + +C+Hl + AvL
+  XP_060038656.1 681 PVAAWW--SQEGPGGWSSEGC-QLRSSQPNASSLHCQHLGNVAVL 722
+                     56799*..47789********.56777*****************8 PP
+
+>> XP_060038651.1  adhesion G protein-coupled receptor A2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.3   4.2e-11   1.4e-08       1      45 []     681     722 ..     681     722 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 4.2e-11
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+ ++W  s++g ggWs+eGC +  ss+ +  + +C+Hl + AvL
+  XP_060038651.1 681 PVAAWW--SQEGPGGWSSEGC-QLRSSQPNASSLHCQHLGNVAVL 722
+                     56799*..47789********.56777*****************8 PP
+
+>> XP_007516755.1  adhesion G protein-coupled receptor A2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.5   0.3   4.3e-11   1.4e-08       1      45 []     705     746 ..     705     746 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 36.5 bits;  conditional E-value: 4.3e-11
+             GPS   1 pqCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     p+ ++W  s++g ggWs+eGC +  ss+ +  + +C+Hl + AvL
+  XP_007516755.1 705 PVAAWW--SQEGPGGWSSEGC-QLRSSQPNASSLHCQHLGNVAVL 746
+                     56799*..47789********.56777*****************8 PP
+
+>> XP_060051893.1  adhesion G protein-coupled receptor B1 isoform X12 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.7   0.1   1.6e-10   5.4e-08       2      45 .]     554     603 ..     553     603 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 1.6e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051893.1 554 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 603
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060060680.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X10 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.7e-08       2      45 .]    2426    2470 ..    2425    2470 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060680.1 2426 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2470
+                      8*******777788********77777.****************98 PP
+
+>> XP_060060676.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.7e-08       2      45 .]    2431    2475 ..    2430    2475 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060676.1 2431 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2475
+                      8*******777788********77777.****************98 PP
+
+>> XP_060060675.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.7e-08       2      45 .]    2431    2475 ..    2430    2475 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060675.1 2431 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2475
+                      8*******777788********77777.****************98 PP
+
+>> XP_060060674.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.8e-08       2      45 .]    2431    2475 ..    2430    2475 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060674.1 2431 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2475
+                      8*******777788********77777.****************98 PP
+
+>> XP_060060672.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.8e-08       2      45 .]    2431    2475 ..    2430    2475 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060672.1 2431 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2475
+                      8*******777788********77777.****************98 PP
+
+>> XP_060060673.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.8e-08       2      45 .]    2426    2470 ..    2425    2470 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060673.1 2426 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2470
+                      8*******777788********77777.****************98 PP
+
+>> XP_060060671.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.4   1.1e-10   3.8e-08       2      45 .]    2431    2475 ..    2430    2475 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 1.1e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060671.1 2431 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2475
+                      8*******777788********77777.****************98 PP
+
+>> XP_060051892.1  adhesion G protein-coupled receptor B1 isoform X11 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.5   0.1   1.9e-10   6.3e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.5 bits;  conditional E-value: 1.9e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051892.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051889.1  adhesion G protein-coupled receptor B1 isoform X8 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1     2e-10   6.8e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 2e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051889.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051887.1  adhesion G protein-coupled receptor B1 isoform X6 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1     2e-10   6.8e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 2e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051887.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051883.1  adhesion G protein-coupled receptor B1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.1   2.1e-10     7e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 2.1e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051883.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051891.1  adhesion G protein-coupled receptor B1 isoform X10 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.5   0.1   1.9e-10   6.4e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.5 bits;  conditional E-value: 1.9e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051891.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060060679.1  cadherin EGF LAG seven-pass G-type receptor 3 isoform X9 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.9   0.4   1.4e-10   4.5e-08       2      45 .]    2426    2470 ..    2425    2470 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 34.9 bits;  conditional E-value: 1.4e-10
+             GPS    2 qCvfWd..ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45  
+                      +Cv Wd     +++g W+ + C+l+++ n++h +C+C+++ +F+vL
+  XP_060060679.1 2426 ICVQWDppGPVDQHGLWTARDCELVHR-NGSHARCRCSRTGTFGVL 2470
+                      8*******777788********77777.****************98 PP
+
+>> XP_060051888.1  adhesion G protein-coupled receptor B1 isoform X7 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1     2e-10   6.8e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 2e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051888.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051886.1  adhesion G protein-coupled receptor B1 isoform X5 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1     2e-10   6.9e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 2e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051886.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051890.1  adhesion G protein-coupled receptor B1 isoform X9 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1   1.9e-10   6.5e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 1.9e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051890.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051884.1  adhesion G protein-coupled receptor B1 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.1   2.1e-10     7e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 2.1e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051884.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051885.1  adhesion G protein-coupled receptor B1 isoform X4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.1   2.1e-10   6.9e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 2.1e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051885.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_060051882.1  adhesion G protein-coupled receptor B1 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.1   2.1e-10     7e-08       2      45 .]     878     927 ..     877     927 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 2.1e-10
+             GPS   2 qCvfWd.......ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     +C  Wd           + g Ws +GC  t+  ++ +t+C C++l++FA+L
+  XP_060051882.1 878 TCILWDetgvpssPAPPQLGPWSWRGC-RTVPLDALRTRCLCDRLSTFAIL 927
+                     7999999999988677799********.67777*****************8 PP
+
+>> XP_007517910.2  adhesion G protein-coupled receptor F4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8   1.9   1.5e-10     5e-08       2      45 .]     347     389 ..     346     389 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 1.5e-10
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHl...tsFAvL 45 
+                      Cv W   +s++++W ++ C +t  +++++++C+Cn++   +sF++L
+  XP_007517910.2 347 LCVGW---HSKKRKWEENSC-KTMMDHRDKVKCQCNYTsalMSFSIL 389
+                     6****...99**********.56777***********99999**998 PP
+
+>> XP_060044712.1  adhesion G protein-coupled receptor F4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8   1.9   1.5e-10     5e-08       2      45 .]     347     389 ..     346     389 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 1.5e-10
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHl...tsFAvL 45 
+                      Cv W   +s++++W ++ C +t  +++++++C+Cn++   +sF++L
+  XP_060044712.1 347 LCVGW---HSKKRKWEENSC-KTMMDHRDKVKCQCNYTsalMSFSIL 389
+                     6****...99**********.56777***********99999**998 PP
+
+>> XP_060044713.1  adhesion G protein-coupled receptor F4 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8   1.9   1.5e-10     5e-08       2      45 .]     347     389 ..     346     389 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 1.5e-10
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHl...tsFAvL 45 
+                      Cv W   +s++++W ++ C +t  +++++++C+Cn++   +sF++L
+  XP_060044713.1 347 LCVGW---HSKKRKWEENSC-KTMMDHRDKVKCQCNYTsalMSFSIL 389
+                     6****...99**********.56777***********99999**998 PP
+
+>> XP_060040120.1  adhesion G-protein coupled receptor F2 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.9   1.1e-09   3.8e-07       2      45 .]     330     372 ..     329     372 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 1.1e-09
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHl...tsFAvL 45 
+                     qCv W   +s +++W+++ C+++++ n  + +C+C      tsF++L
+  XP_060040120.1 330 QCVGW---HSLENRWDQKACKMIQE-NFKQAICKCRPSklfTSFSIL 372
+                     9****...9999********66555.*********988889****98 PP
+
+>> XP_060040121.1  adhesion G-protein coupled receptor F2 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.9   1.1e-09   3.8e-07       2      45 .]     322     364 ..     321     364 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 1.1e-09
+             GPS   2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHl...tsFAvL 45 
+                     qCv W   +s +++W+++ C+++++ n  + +C+C      tsF++L
+  XP_060040121.1 322 QCVGW---HSLENRWDQKACKMIQE-NFKQAICKCRPSklfTSFSIL 364
+                     9****...9999********66555.*********988889****98 PP
+
+>> XP_060044257.1  adhesion G protein-coupled receptor A3 isoform X3 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   0.1   2.9e-09   9.7e-07       4      45 .]     646     687 ..     643     687 .. 0.89
+   2 ?    0.2   0.1       9.8   3.3e+03      17      36 ..    1054    1072 ..    1052    1076 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 2.9e-09
+             GPS   4 vfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     + Wd    +g+ggW ++GC+   s +e+ t+ +C  l+++AvL
+  XP_060044257.1 646 AQWDfGLLNGQGGWKSDGCHILYS-DENITTIQCYSLSNYAVL 687
+                     67***777799********76666.*****************8 PP
+
+  == domain 2  score: 0.2 bits;  conditional E-value: 9.8
+             GPS   17 steGCsltessnethtvCsC 36  
+                      s++GC+lt+  ++   +C  
+  XP_060044257.1 1054 SSQGCKLTNL-QAAAAQCYS 1072
+                      799**88777.999999976 PP
+
+>> XP_060044255.1  adhesion G protein-coupled receptor A3 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.6   0.1     3e-09   9.9e-07       4      45 .]     670     711 ..     667     711 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.6 bits;  conditional E-value: 3e-09
+             GPS   4 vfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     + Wd    +g+ggW ++GC+   s +e+ t+ +C  l+++AvL
+  XP_060044255.1 670 AQWDfGLLNGQGGWKSDGCHILYS-DENITTIQCYSLSNYAVL 711
+                     67***777799********76666.*****************8 PP
+
+>> XP_007523941.2  adhesion G protein-coupled receptor A3 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.6   0.1     3e-09     1e-06       4      45 .]     694     735 ..     691     735 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.6 bits;  conditional E-value: 3e-09
+             GPS   4 vfWd.ssnsgtggWsteGCsltessnethtvCsCnHltsFAvL 45 
+                     + Wd    +g+ggW ++GC+   s +e+ t+ +C  l+++AvL
+  XP_007523941.2 694 AQWDfGLLNGQGGWKSDGCHILYS-DENITTIQCYSLSNYAVL 735
+                     67***777799********76666.*****************8 PP
+
+>> XP_060028589.1  polycystin-1 isoform X2 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0    0.0015      0.51       3      43 ..    2003    2040 ..    2001    2041 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.0015
+             GPS    3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFA 43  
+                      C ++   ++++  W teG    e+++ ++ vC   Hlt F+
+  XP_060028589.1 2003 CQYF---SEDEMMWRTEGLVPLEETSPSQAVCLTRHLTAFG 2040
+                      8888...67789*******999999**************96 PP
+
+>> XP_060026981.1  polycystin-1-like protein 1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0    0.0035       1.2       2      44 ..    1355    1392 ..    1354    1393 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.0035
+             GPS    2 qCvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFAv 44  
+                      qC fW   +  t+gW +e  s    ++ +++ Cs ++l  F +
+  XP_060026981.1 1355 QCLFW---D--TKGWKSERFSPQPGTSPEKVNCSYDRLAAFTI 1392
+                      8****...4..689******988899**************987 PP
+
+>> XP_060028588.1  polycystin-1 isoform X1 [Erinaceus europaeus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0     0.002      0.69       3      43 ..    3013    3050 ..    3011    3051 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.002
+             GPS    3 CvfWdssnsgtggWsteGCsltessnethtvCsCnHltsFA 43  
+                      C ++   ++++  W teG    e+++ ++ vC   Hlt F+
+  XP_060028588.1 3013 CQYF---SEDEMMWRTEGLVPLEETSPSQAVCLTRHLTAFG 3050
+                      8888...67789*******999999**************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (45 nodes)
+Target sequences:                        51447  (34254655 residues searched)
+Passed MSV filter:                      2047  (0.0397885); expected 1028.9 (0.02)
+Passed bias filter:                     1087  (0.0211285); expected 1028.9 (0.02)
+Passed Vit filter:                       254  (0.00493712); expected 51.4 (0.001)
+Passed Fwd filter:                       153  (0.00297393); expected 0.5 (1e-05)
+Initial search space (Z):              51447  [actual number of targets]
+Domain search space  (domZ):             153  [number of targets reported over threshold]
+# CPU time: 0.67u 0.07s 00:00:00.74 Elapsed: 00:00:00.46
+# Mc/sec: 3351.00
+//
+[ok]
