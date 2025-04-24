@@ -1,0 +1,47 @@
+ 1160  git push
+ 1161  l
+ 1162  cd homework/
+ 1163  l
+ 1164  cd hw8
+ 1165  l
+ 1166  cd data
+ 1167  l
+ 1168  cd 4
+ 1169  cd ../5
+ 1170  l
+ 1171  cat fin | sort -gs -k2
+ 1172  cat fin | sort -gs -k2 | sort -gs -k2
+ 1173  cat fin | sort -gs -k2 | sort -gs -k3
+ 1174  cat fin | sort -gs -k2,2 | sort -gs -k3,3
+ 1175  cat fin | sort -gs -k2,2 
+ 1176  cat fin | sort -gs -k2,2 | sort -k3,3 -gs
+ 1177  cat fin | sort -gs -k2,4 
+ 1178  vim task5.sh 
+ 1179  ./task5.sh 
+ 1180  l
+ 1181  cat fout
+ 1182  cd ../6
+ 1183  l
+ 1184  cd 6/1
+ 1185  cd 6.1
+ 1186  l
+ 1187  cat fin
+ 1188  cd ../
+ 1189  l
+ 1190  cp task6.sh 6.1
+ 1191  cp task6.sh 6.2
+ 1192  l
+ 1193  cd 6.1
+ 1194  l
+ 1195  ./task6.sh 
+ 1196  cd ../../
+ 1197  cd 7
+ 1198  l
+ 1199  ./task7.sh 
+ 1200  cat fout
+ 1201  cd ../
+ 1202  l
+ 1203  man history
+ 1204  history | tail
+ 1205  history | less
+ 1206  history | tail -n 47 > history.txt
